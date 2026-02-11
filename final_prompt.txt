@@ -1,0 +1,19 @@
+Hey, I've got a Python project that's failing its tests and need some help fixing it.
+
+**The Problem:**
+The app has a few issues causing test failures:
+- The `build_path` function in app/utils.py is using hardcoded forward slashes instead of OS-appropriate path separators, so it's breaking on Windows
+- Environment variables from .env file aren't being loaded properly - missing python-dotenv integration
+- Logger isn't being configured with the LOG_LEVEL from config
+
+**What I Need:**
+All tests should pass without any modifications to the test files themselves. The app code needs to be fixed to work correctly.
+
+**Requirements:**
+1. Create a new folder called `issue_fixed` and make all your changes there - don't touch the original issue folder
+2. Run all the tests automatically using pytest
+3. All tests must pass (test_config.py, test_service.py, test_utils.py)
+4. Save the test results to a `logs` folder
+5. Don't modify or replace any existing tests - just fix the app code to make them pass
+
+Thanks!
