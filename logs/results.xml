@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="6" failures="0" skipped="0" tests="6" time="0.166" timestamp="2026-02-11T11:46:32.845844+08:00" hostname="DESKTOP-TCNUAOP"><testcase classname="" name="issue.tests.test_config" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\projects\v-JianzhangDong_26_02_11\vscModelB-swe-vsc-teleberry-baseline-s115\v-JianzhangDong_26_02_11\issue\tests\test_config.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\python\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+issue\tests\test_config.py:3: in &lt;module&gt;
+    from app.config import Config
+E   ModuleNotFoundError: No module named 'app'</error></testcase><testcase classname="" name="issue.tests.test_service" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\projects\v-JianzhangDong_26_02_11\vscModelB-swe-vsc-teleberry-baseline-s115\v-JianzhangDong_26_02_11\issue\tests\test_service.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\python\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+issue\tests\test_service.py:2: in &lt;module&gt;
+    from app.service import process
+E   ModuleNotFoundError: No module named 'app'</error></testcase><testcase classname="" name="issue.tests.test_utils" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\projects\v-JianzhangDong_26_02_11\vscModelB-swe-vsc-teleberry-baseline-s115\v-JianzhangDong_26_02_11\issue\tests\test_utils.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\python\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+issue\tests\test_utils.py:2: in &lt;module&gt;
+    from app.utils import build_path
+E   ModuleNotFoundError: No module named 'app'</error></testcase><testcase classname="" name="issue_fixed.tests.test_config" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\projects\v-JianzhangDong_26_02_11\vscModelB-swe-vsc-teleberry-baseline-s115\v-JianzhangDong_26_02_11\issue_fixed\tests\test_config.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\python\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+issue_fixed\tests\test_config.py:3: in &lt;module&gt;
+    from app.config import Config
+E   ModuleNotFoundError: No module named 'app'</error></testcase><testcase classname="" name="issue_fixed.tests.test_service" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\projects\v-JianzhangDong_26_02_11\vscModelB-swe-vsc-teleberry-baseline-s115\v-JianzhangDong_26_02_11\issue_fixed\tests\test_service.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\python\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+issue_fixed\tests\test_service.py:2: in &lt;module&gt;
+    from app.service import process
+E   ModuleNotFoundError: No module named 'app'</error></testcase><testcase classname="" name="issue_fixed.tests.test_utils" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\projects\v-JianzhangDong_26_02_11\vscModelB-swe-vsc-teleberry-baseline-s115\v-JianzhangDong_26_02_11\issue_fixed\tests\test_utils.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\python\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+issue_fixed\tests\test_utils.py:2: in &lt;module&gt;
+    from app.utils import build_path
+E   ModuleNotFoundError: No module named 'app'</error></testcase></testsuite></testsuites>
