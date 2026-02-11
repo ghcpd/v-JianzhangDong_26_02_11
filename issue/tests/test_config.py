@@ -1,6 +1,6 @@
+import os
 import pytest
 from app.config import Config
 
-def test_missing_env():
-    with pytest.raises(RuntimeError):
-        Config.get_data_path()
+def test_env_loaded():
+    assert Config.APP_ENV == "test"

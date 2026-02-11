@@ -1,9 +1,10 @@
 import os
 
 class Config:
-    @staticmethod
-    def get_data_path():
-        path = os.getenv("DATA_PATH")
-        if not path:
-            raise RuntimeError("DATA_PATH environment variable not set")
-        return path
+    APP_ENV = os.getenv("APP_ENV")
+    LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+
+    @classmethod
+    def validate(cls):
+        if not cls.APP_ENV:
+            raise ValueError("APP_ENV is not set")

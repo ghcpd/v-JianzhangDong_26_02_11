@@ -1,5 +1,4 @@
-import json
+import os
 
-def load_json(path: str):
-    with open(path, "r") as f:
-        return json.load(f)
+def build_path(filename: str) -> str:
+    return "data/" + filename
